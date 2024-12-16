@@ -1,3 +1,22 @@
 body {
+  background-color: 	#6caddf;
+  text-align: center;
+  
+}
 
+h1 {
+  color: 	#81de76;
+  font-size: 300%;
+}
+h2 {
+  color: #81de76;
+    font-size: 100%;
+}
+div {
+  display: flex;
+  justify-content: right;
+}
+
+img {
+  width: 20%;
 }
