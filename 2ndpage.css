@@ -1,1 +1,38 @@
+body {
+  background-color: 	#6caddf;
+  text-align: center;
+}
+<br>
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+.button-3d-gradient {
+  background: linear-gradient(45deg, #6e7fdb, #5b9bd5); /* Gradient Background */
+  color: white;
+  padding: 15px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Initial 3D shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.button-3d-gradient:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+  transform: translateY(-4px); /* Moves the button up slightly */
+}
+
+.button-3d-gradient:active {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow when clicked */
+  transform: translateY(2px); /* Button moves down when clicked */
+}
 
