@@ -35,4 +35,10 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow when clicked */
   transform: translateY(2px); /* Button moves down when clicked */
 }
-
+h1 {
+  color: 	#81de76;
+  font-size: 300%;
+}
+h2 {
+  color: #81de76;
+    font-size: 100%;
